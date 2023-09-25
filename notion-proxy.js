@@ -3,8 +3,8 @@ const axios = require('axios');
 
 module.exports = async (req, res) => {
   try {
-    const notionUrl = "https://api.notion.com/v1/databases/YOUR_DATABASE_ID/query";
-    const apiKey = "YOUR_NOTION_SECRET_API_KEY";
+    const notionUrl = "https://api.notion.com/v1/databases/c68a45e247104d2c9099c729477cda69/query";
+    const apiKey = "secret_L5EkN7Il9rEm9QfPNKRx8Lca5Q6m0sfyvK9yoYMtw9Z";
     
     const response = await axios.post(
       notionUrl,
